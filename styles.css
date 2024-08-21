@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.grid-box {
+    width: calc(100% / var(--grid-size));
+    padding-bottom: calc(100% / var(--grid-size));
+    background-color: lightgrey;
+    box-sizing: border-box;
+  }
